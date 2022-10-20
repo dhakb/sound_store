@@ -28,7 +28,6 @@ const CategoriesContextProvider = ({children}) => {
     const [state, dispatch] = useReducer(categoriesReducer, initialState)
     const {categoriesMap} = state
 
-    console.log(categoriesMap)
 
     const setCategoriesMap = (categoriesArray) => {
         dispatch({type: "GET_CATEGORIES", payload: categoriesArray})

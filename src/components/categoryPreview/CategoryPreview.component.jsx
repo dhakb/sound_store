@@ -1,6 +1,6 @@
 import {useNavigate} from "react-router-dom";
 
-import ProductCard from "../product-card/ProductCard.component";
+import ProductCard from "../productCard/ProductCard.component";
 
 import "./CategoryPreview.styles.scss"
 

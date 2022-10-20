@@ -1,9 +1,8 @@
-import "./CartItem.styles.scss"
+import "./CartDropdownItem.styles.scss"
 
-const CartItem = ({product}) => {
-    console.log(product)
+const CartDropdownItem = ({product}) => {
     return (
-        <div className="cart-item-container">
+        <div className="dropdown-item-container">
             <img src={product.imageUrl} alt={product.name}/>
             <div className="item-details">
                 <span>{product.qty} x {product.price}</span>
@@ -14,4 +13,4 @@ const CartItem = ({product}) => {
 }
 
 
-export default CartItem
+export default CartDropdownItem

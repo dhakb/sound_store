@@ -4,7 +4,7 @@ import {useParams} from "react-router-dom";
 import {CategoriesContext} from "../../context/Categories.context";
 
 import "./Category.styles.scss"
-import ProductCard from "../../components/product-card/ProductCard.component";
+import ProductCard from "../../components/productCard/ProductCard.component";
 
 const Category = () => {
     const [products, setProducts] = useState([])
