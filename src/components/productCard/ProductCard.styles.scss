@@ -5,6 +5,8 @@
   height: 350px;
   align-items: center;
   position: relative;
+  //border: 2px solid mediumpurple;
+  //background-color:slateblue ;
 
   img {
     width: 100%;
@@ -48,4 +50,11 @@
       width: 10%;
     }
   }
+}
+
+
+.responsive {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
 }

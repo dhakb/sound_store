@@ -11,7 +11,7 @@ const ProductCard = ({product}) => {
     const {imageUrl, name, price} = product
     return (
         <div className="product-card-container">
-            <img src={imageUrl} alt={name}/>
+            <img src={imageUrl} alt={name} className="responsive"/>
             <Button buttonType="inverted" onClick={() => addItemToCart(product)}> Add to cart</Button>
             <div className="footer">
                 <span className="name">{name}</span>

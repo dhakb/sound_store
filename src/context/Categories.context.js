@@ -1,16 +1,20 @@
-import SHOP_DATA from "../dataSet";
 import {createContext, useEffect, useReducer} from "react";
-
+import {getCategoriesAndDocuments} from "../utils/firebase/firebase.utils";
 
 export const CategoriesContext = createContext({
     categoriesMap: {}
 })
 
+
+const CATEGORIES_ACTION_TYPES = {
+    GET_CATEGORIES: "GET_CATEGORIES"
+}
+
 const categoriesReducer = (state, action) => {
     const {type, payload} = action
 
     switch (type) {
-        case "GET_CATEGORIES" :
+        case CATEGORIES_ACTION_TYPES.GET_CATEGORIES :
             return {
                 ...state,
                 categoriesMap: payload
@@ -25,22 +29,20 @@ const initialState = {
 }
 
 const CategoriesContextProvider = ({children}) => {
-    const [state, dispatch] = useReducer(categoriesReducer, initialState)
-    const {categoriesMap} = state
+    const [{categoriesMap}, dispatch] = useReducer(categoriesReducer, initialState)
 
 
-    const setCategoriesMap = (categoriesArray) => {
-        dispatch({type: "GET_CATEGORIES", payload: categoriesArray})
+    const setCategoriesMap = (categoriesMap) => {
+        dispatch({type: CATEGORIES_ACTION_TYPES.GET_CATEGORIES, payload: categoriesMap})
     }
 
     useEffect(() => {
-        setCategoriesMap(SHOP_DATA.reduce((acc, curr) => {
-            const title = curr.title.toLowerCase()
-            return {
-                ...acc,
-                [title]: curr.items
-            }
-        }, {}))
+        const getCategories = async () => {
+            const categoriesMap = await getCategoriesAndDocuments()
+            setCategoriesMap(categoriesMap)
+        }
+
+        getCategories()
     }, [])
 
 

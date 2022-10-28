@@ -8,7 +8,7 @@ import {
     signInWithPopup,
     signOut
 } from "firebase/auth"
-import dataSet from "../../dataSet";
+
 import {collection, doc, getDoc, getFirestore, query, setDoc, writeBatch, getDocs} from "firebase/firestore";
 
 

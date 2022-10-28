@@ -5,27 +5,27 @@ const Home = () => {
     const categories = [
         {
             id: 1,
-            title: 'hats',
+            title: 'bowed string',
             imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
         },
         {
             id: 2,
-            title: 'jackets',
+            title: 'woodwind',
             imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
         },
         {
             id: 3,
-            title: 'sneakers',
+            title: 'percussions',
             imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
         },
         {
             id: 4,
-            title: 'womens',
+            title: 'keyboards',
             imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
         },
         {
             id: 5,
-            title: 'mens',
+            title: 'guitar family',
             imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
         },
     ];
