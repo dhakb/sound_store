@@ -2,8 +2,8 @@ import {Fragment, useContext} from "react";
 import {Link, Outlet} from "react-router-dom";
 
 import {signOutUser} from "../../utils/firebase/firebase.utils";
-import {CartContext} from "../../context/Cart.context";
-import {UserContext} from "../../context/User.Context";
+import {CartContext} from "../../context/cart/Cart.context";
+import {UserContext} from "../../context/user/User.Context";
 
 import CartIcon from "../../components/cartIcon/CartIcon.components";
 import CartDropDown from "../../components/cartDropDown/CartDropDown.component";

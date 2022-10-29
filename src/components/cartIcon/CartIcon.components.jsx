@@ -1,5 +1,5 @@
 import {useContext, useEffect} from "react";
-import {CartContext} from "../../context/Cart.context";
+import {CartContext} from "../../context/cart/Cart.context";
 
 import {ReactComponent as CartIconSvg} from "../../assets/cart-icon.svg";
 
