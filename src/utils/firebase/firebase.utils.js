@@ -14,12 +14,12 @@ import {collection, doc, getDoc, getFirestore, query, setDoc, writeBatch, getDoc
 
 // Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyByv9-1M9o35bA4oox2cAcfnZYAwvBzac0",
+    apiKey: `${process.env.REACT_APP_API_KEY}`,
+    messagingSenderId: `${process.env.REACT_APP_MESSAGING_SENDER_ID}`,
+    appId: `${process.env.REACT_APP_APP_ID}`,
     authDomain: "sound-store-57e95.firebaseapp.com",
     projectId: "sound-store-57e95",
     storageBucket: "sound-store-57e95.appspot.com",
-    messagingSenderId: "353693127650",
-    appId: "1:353693127650:web:ae1f1540d7991dcaea1fbb",
     measurementId: "G-BHYHDXLQF8"
 };
 
