@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 100px;
+
+
+  .title-header {
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 70px;
+    margin-top: 0px;
+  }
+
+}
