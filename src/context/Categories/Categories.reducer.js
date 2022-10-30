@@ -9,6 +9,12 @@ export const categoriesReducer = (state, action) => {
                 ...state,
                 categoriesMap: payload
             }
+
+        case CATEGORIES_ACTION_TYPES.GET_CATEGORY_TYPES:
+            return {
+                ...state,
+                categoryTypes: payload
+            }
         default:
             throw new Error(`Unhandled type ${type} caught in categories reduce`)
     }

@@ -1,25 +1,29 @@
 import {createContext, useEffect, useReducer} from "react";
 import {CATEGORIES_ACTION_TYPES} from "./Categories.actionTypes";
 import {categoriesReducer} from "./Categories.reducer";
-import {getCategoriesAndDocuments} from "../../utils/firebase/firebase.utils";
+import {getCategoriesAndDocuments, getCategoryTypesAndDocuments} from "../../utils/firebase/firebase.utils";
 
 export const CategoriesContext = createContext({
-    categoriesMap: {}
+    categoriesMap: {},
+    categoryTypes: []
 })
 
 
-
-
 const INITIAL_STATE = {
-    categoriesMap: {}
+    categoriesMap: {},
+    categoryTypes: []
 }
 
 const CategoriesContextProvider = ({children}) => {
-    const [{categoriesMap}, dispatch] = useReducer(categoriesReducer, INITIAL_STATE)
+    const [{categoriesMap, categoryTypes}, dispatch] = useReducer(categoriesReducer, INITIAL_STATE)
 
 
     const setCategoriesMap = (categoriesMap) => {
         dispatch({type: CATEGORIES_ACTION_TYPES.GET_CATEGORIES, payload: categoriesMap})
+    }
+
+    const setCategoryTypes = (categoryTypesArray) => {
+        dispatch({type: CATEGORIES_ACTION_TYPES.GET_CATEGORY_TYPES, payload: categoryTypesArray})
     }
 
     useEffect(() => {
@@ -28,11 +32,24 @@ const CategoriesContextProvider = ({children}) => {
             setCategoriesMap(categoriesMap)
         }
 
+
+        const getCategoryTypes = async () => {
+            const categoryTypes = await getCategoryTypesAndDocuments()
+            setCategoryTypes(categoryTypes)
+        }
+
         getCategories()
+        getCategoryTypes()
     }, [])
 
 
-    return <CategoriesContext.Provider value={categoriesMap}>{children}</CategoriesContext.Provider>
+    const value = {
+        categoriesMap,
+        categoryTypes
+    }
+
+
+    return <CategoriesContext.Provider value={value}>{children}</CategoriesContext.Provider>
 }
 
 
