@@ -5,7 +5,7 @@ import {ReactComponent as CartIconSvg} from "../../assets/cart-icon.svg";
 
 import "./CartIcon.styles.scss"
 
-const CartIcon = () => {
+const CartIcon = ({onLoseFocus}) => {
     const {cartItemsQty, toggleCartDropDown, getCartItemsQty, cartProducts} = useContext(CartContext)
 
     useEffect(() => {

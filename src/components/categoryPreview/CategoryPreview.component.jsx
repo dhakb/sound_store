@@ -7,7 +7,7 @@ import "./CategoryPreview.styles.scss"
 
 const CategoryPreview = ({products, title}) => {
     const navigate = useNavigate()
-
+    console.log(title)
     return (
         <div className="category-preview-container">
             <h2>

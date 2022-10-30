@@ -1,4 +1,5 @@
 import {useState} from "react";
+import {useNavigate} from "react-router-dom";
 
 import {signInAuthUserWithEmailAndPassword, signInWithGooglePopup} from "../../utils/firebase/firebase.utils";
 
@@ -18,8 +19,12 @@ const SignIn = () => {
     const [formFields, setFormFields] = useState(INITIAL_VALUE_FORM_INPUTS);
     const {email, password} = formFields;
 
+    const navigate = useNavigate()
+
+
     const signInWithGoogle = async () => {
         await signInWithGooglePopup();
+        navigate("/")
     };
 
     const submitHandler = async (e) => {
@@ -31,14 +36,14 @@ const SignIn = () => {
                 password
             );
             resetFormFields();
-
+            navigate("/")
         } catch (err) {
 
             switch (err.code) {
-                case "auth/user-not-found":
+                case "authentication/user-not-found":
                     alert("User Not Found! Try another or create new account!");
                     break;
-                case "auth/wrong-password":
+                case "authentication/wrong-password":
                     alert("Incorrect Password!");
                     break;
                 default:
