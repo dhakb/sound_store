@@ -1,4 +1,5 @@
 import {initializeApp} from "firebase/app";
+
 import {
     createUserWithEmailAndPassword,
     signInWithEmailAndPassword,
@@ -12,11 +13,12 @@ import {
 import {collection, doc, getDoc, getFirestore, query, setDoc, writeBatch, getDocs} from "firebase/firestore";
 
 
+
 // Firebase configuration
 const firebaseConfig = {
-    apiKey: `${process.env.REACT_APP_API_KEY}`,
-    messagingSenderId: `${process.env.REACT_APP_MESSAGING_SENDER_ID}`,
-    appId: `${process.env.REACT_APP_APP_ID}`,
+    apiKey: "AIzaSyByv9-1M9o35bA4oox2cAcfnZYAwvBzac0",
+    messagingSenderId: "353693127650",
+    appId: "1:353693127650:web:ae1f1540d7991dcaea1fbb",
     authDomain: "sound-store-57e95.firebaseapp.com",
     projectId: "sound-store-57e95",
     storageBucket: "sound-store-57e95.appspot.com",
@@ -125,6 +127,18 @@ export const getCategoriesAndDocuments = async () => {
     }, {})
 
     return categoryMap
+}
+
+
+//Get CategoryTypes and Documents
+export const getCategoryTypesAndDocuments = async () => {
+    const collectionRef = collection(db, "categoryTypes")
+    const q = query(collectionRef)
+
+    const categoryTypesSnapshot = await getDocs(q)
+    const categoryTypesArray = categoryTypesSnapshot.docs.map(type => type.data())
+
+    return categoryTypesArray
 }
 
 

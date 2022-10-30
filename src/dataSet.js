@@ -1,6 +1,35 @@
+export const categories = [
+    {
+        id: 1,
+        title: 'bowed strings',
+        imageUrl: 'https://i.ibb.co/JrCYwjL/boweds-strings.webp',
+    },
+    {
+        id: 2,
+        title: 'woodwind',
+        imageUrl: 'https://i.ibb.co/Lk639kP/woodwinds.jpg',
+    },
+    {
+        id: 3,
+        title: 'percussion',
+        imageUrl: 'https://i.ibb.co/5nFkW1r/percu.jpg',
+    },
+    {
+        id: 4,
+        title: 'keyboards',
+        imageUrl: 'https://i.ibb.co/thMD4tC/keyboards.jpg',
+    },
+    {
+        id: 5,
+        title: 'guitar family',
+        imageUrl: 'https://i.ibb.co/BgxLZVm/guitar-family.jpg',
+    },
+];
+
+
 const SHOP_DATA = [
     {
-        title: 'Bowed String',
+        title: 'Bowed Strings',
         items: [
             {
                 id: 1,
@@ -101,7 +130,7 @@ const SHOP_DATA = [
         ],
     },
     {
-        title: 'Percussions',
+        title: 'Percussion',
         items: [
             {
                 id: 19,
@@ -218,6 +247,9 @@ const SHOP_DATA = [
         ],
     },
 ];
+
+
+
 
 
 export default SHOP_DATA
