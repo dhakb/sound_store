@@ -5,6 +5,12 @@
   row-gap: 50px;
 }
 
+.category-title {
+  color: black;
+  text-transform: capitalize;
+  font-family: 'Pacifico', cursive;
+}
+
 
 @media(max-width: 992px) {
   .category-container {

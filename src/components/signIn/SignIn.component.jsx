@@ -31,7 +31,7 @@ const SignIn = () => {
         e.preventDefault();
 
         try {
-            const user = await signInAuthUserWithEmailAndPassword(
+             await signInAuthUserWithEmailAndPassword(
                 email,
                 password
             );

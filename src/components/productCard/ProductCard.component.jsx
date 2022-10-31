@@ -7,8 +7,8 @@ import Button from "../button/Button.component";
 import "./ProductCard.styles.scss"
 const ProductCard = ({product}) => {
     const {addItemToCart} = useContext(CartContext)
-
     const {imageUrl, name, price} = product
+
     return (
         <div className="product-card-container">
             <img src={imageUrl} alt={name} className="responsive"/>

@@ -7,13 +7,13 @@ import "./CategoryPreview.styles.scss"
 
 const CategoryPreview = ({products, title}) => {
     const navigate = useNavigate()
-    console.log(title)
     return (
         <div className="category-preview-container">
-            <h2>
+            <h2 className="title-container">
                  <span className="title" onClick={() => navigate(title)}>
-                    {title.toUpperCase()}
+                    {title}
                  </span>
+                <hr/>
             </h2>
             <div className="preview">
                 {

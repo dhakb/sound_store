@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="36d3cf7d-c69c-4d1b-8910-a2f2eb39cb6d" name="Changes" comment="modify .gitignore. remove cached files in git">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Sound Store.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/categoryPreview/CategoryPreview.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/categoryPreview/CategoryPreview.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/categoryPreview/CategoryPreview.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/categoryPreview/CategoryPreview.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navigationBar/NavigationBar.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigationBar/NavigationBar.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/productCard/ProductCard.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/productCard/ProductCard.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/productCard/ProductCard.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/productCard/ProductCard.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/category/Category.components.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/category/Category.components.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/category/Category.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/category/Category.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/home/Home.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/home/Home.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/home/Home.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/home/Home.styles.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GJWMTk8KQZtiseuQZw4X11EB6G" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/giguchi/Documents/Projects/sound_store",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_interpreter_path": "/home/giguchi/.nvm/versions/node/v18.6.0/bin/node",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "watcher.settings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/context/user" />
+      <recent name="$PROJECT_DIR$/src/context/Categories" />
+      <recent name="$PROJECT_DIR$/src/context/cart" />
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/routes" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="36d3cf7d-c69c-4d1b-8910-a2f2eb39cb6d" name="Changes" comment="" />
+      <created>1666107118845</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666107118845</updated>
+      <workItem from="1666107119980" duration="3708000" />
+      <workItem from="1666185173393" duration="33571000" />
+      <workItem from="1666276732881" duration="9809000" />
+      <workItem from="1666974746242" duration="22929000" />
+      <workItem from="1667171518874" duration="118000" />
+      <workItem from="1667171637500" duration="19000" />
+      <workItem from="1667171663200" duration="5196000" />
+      <workItem from="1667178699566" duration="230000" />
+      <workItem from="1667226096628" duration="1853000" />
+    </task>
+    <task id="LOCAL-00001" summary="add responsive layouts for different screen breakpoints">
+      <created>1667171817537</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667171817537</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add getCategoryTypes action to categories context">
+      <created>1667171912216</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667171912216</updated>
+    </task>
+    <task id="LOCAL-00003" summary="delete useless .png .ico .svg .txt files">
+      <created>1667172035820</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667172035820</updated>
+    </task>
+    <task id="LOCAL-00004" summary="prepare project for deployment">
+      <created>1667172793847</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667172793847</updated>
+    </task>
+    <task id="LOCAL-00005" summary="modify .gitignore. remove cached files in git">
+      <created>1667173855151</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667173855151</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add responsive layouts for different screen breakpoints" />
+    <MESSAGE value="add getCategoryTypes action to categories context" />
+    <MESSAGE value="delete useless .png .ico .svg .txt files" />
+    <MESSAGE value="prepare project for deployment" />
+    <MESSAGE value="modify .gitignore. remove cached files in git" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify .gitignore. remove cached files in git" />
+  </component>
+</project>

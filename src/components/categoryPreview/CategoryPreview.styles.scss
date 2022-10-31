@@ -3,11 +3,26 @@
   flex-direction: column;
   margin-bottom: 30px;
 
-  .title {
-    font-size: 28px;
-    margin-bottom: 25px;
-    cursor: pointer;
+
+  .title-container {
+    width: 32%;
+
+    .title {
+      font-family: 'Pacifico', cursive;
+      font-size: 28px;
+      text-transform: capitalize;
+      margin-bottom: 25px;
+      cursor: pointer;
+      color: black;
+      margin-left: 30px;
+    }
+
+    hr {
+      background-color: slategray;
+    }
+
   }
+
 
   .preview {
     display: grid;

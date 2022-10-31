@@ -1,7 +1,7 @@
 import {useContext} from "react";
 import {CategoriesContext} from "../../context/Categories/Categories.context";
 import Directory from "../../components/directory/Directory.component";
-import SoundWave from "../../components/animations/SoundWave.component";
+
 
 import "./Home.styles.scss"
 
