@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36d3cf7d-c69c-4d1b-8910-a2f2eb39cb6d" name="Changes" comment="modify .gitignore. remove cached files in git">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Sound Store.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/categoryPreview/CategoryPreview.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/categoryPreview/CategoryPreview.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/categoryPreview/CategoryPreview.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/categoryPreview/CategoryPreview.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navigationBar/NavigationBar.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigationBar/NavigationBar.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/productCard/ProductCard.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/productCard/ProductCard.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/productCard/ProductCard.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/productCard/ProductCard.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/category/Category.components.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/category/Category.components.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/category/Category.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/category/Category.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/home/Home.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/home/Home.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/home/Home.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/home/Home.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +84,7 @@
       <workItem from="1667171637500" duration="19000" />
       <workItem from="1667171663200" duration="5196000" />
       <workItem from="1667178699566" duration="230000" />
-      <workItem from="1667226096628" duration="1853000" />
+      <workItem from="1667226096628" duration="6943000" />
     </task>
     <task id="LOCAL-00001" summary="add responsive layouts for different screen breakpoints">
       <created>1667171817537</created>
