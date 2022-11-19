@@ -4,7 +4,7 @@
 
 E-commerce React application built with functional components and hooks that manages its state using createContext API.
 
-![](https://i.ibb.co/3hbwr0H/Screenshot-from-2022-10-31-16-34-46.png)
+![](https://i.ibb.co/q0X7Qq0/sound-store.png)
 
 
 ## Features and stack
